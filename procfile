@@ -1,1 +1,1 @@
- web: streamlit run
+ web: streamlit run log_walk.py
