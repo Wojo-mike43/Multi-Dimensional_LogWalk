@@ -135,4 +135,4 @@ if __name__ == '__main__':
         # Model Description
         st.markdown('#### About the Project')
         with st.expander("Click Here To Read More About The Project:"):
-            st.write("Test")
+            st.write("This project is a multi-dimensional lognormal random walk that models the evolution of a multi-asset portfolio over time. In this simulation, each asset's price path is influenced by historical returns, volatility, and covariances among the assets in the portfolio. The project utilizes yfinance, pandas, numpy, to perform the calculations, while matplotlib and streamlit are used for visualizations and a user interface.")
