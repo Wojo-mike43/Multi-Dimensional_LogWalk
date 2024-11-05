@@ -19,6 +19,6 @@ Using `numpy` and `pandas`, the lognormal returns for each stock are calculated,
   The project is wrapped in a `streamlit` GUI for easy usability and demonstration purposes. Here, the sample statistics mentioned above are displayed as well as the covariance matrix for the portfolio. `matplotlib` is used to plot sample price paths for each stock in the random walk.
 
 - **Streamlit Project Link:**
-  [https://multi-dimensionallogwalk-nhv765us2texyjhumeqgfa.streamlit.app/]
+  [https://multi-dimensionallogwalk-dt3bts6itcp22wjeuvxqt8.streamlit.app/]
   
   
