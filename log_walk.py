@@ -136,5 +136,3 @@ if __name__ == '__main__':
         st.markdown('#### About the Project')
         with st.expander("Click Here To Read More About The Project:"):
             st.write("Test")
-
-#streamlit run "/Users/michael/PycharmProjects/Muli-Dimensional Lognormal Random Walk/LogWalk_Streamlit.py"
