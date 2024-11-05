@@ -10,7 +10,7 @@ This project is a multi-dimensional lognormal random walk that models the evolut
   A portfolio of stocks is pre-loaded into the script using a Python list. This portfolio consists of 24 stocks that used to be held in the student-run growth portfolio I managed from 2022 - 2023. `yfinance` is utilized to collect historical data on the stocks over the past three years.
 
 - **Lognormal Random Walk:**  
-Using `numpy` and `pandas`, the lognormal returns for each stock are calculated, along with each stock’s historical volatility and drift coefficient (average daily growth). Next, a covariance matrix is constructed for the portfolio. This covariance matrix, combined with each stock's volatility and drift coefficient, is used to generate a series of random lognormal returns using `numpy`’s `np.random.multivariate_normal`. This function produces random returns based on the statistical properties of the assets, simulating their paths over time.
+Using `numpy` and `pandas`, the lognormal returns for each stock are calculated, along with each stock’s historical volatility and drift coefficient (average daily growth). Next, a covariance matrix is constructed for the portfolio. This covariance matrix, combined with each stock's volatility and drift coefficient, is used to generate a series of random lognormal returns using `numpy’s` `np.random.multivariate_normal`. This function produces random returns based on the statistical properties of the assets, simulating their paths over time.
 
 - **Portfolio Statistics:**  
   Basic portfolio statistics such as portfolio growth, annual mean volatility, and annual mean return are calculated.
